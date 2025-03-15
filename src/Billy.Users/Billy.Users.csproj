@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.0.0" />
+        <PackageReference Include="MassTransit" Version="7.0.6" />
+        <PackageReference Include="Serilog" Version="2.10.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Billy.CodeReadability\Billy.CodeReadability.csproj" />
+      <ProjectReference Include="..\Billy.CQRS\Billy.CQRS.csproj" />
+      <ProjectReference Include="..\Billy.EventSourcing\Billy.EventSourcing.csproj" />
+      <ProjectReference Include="..\Billy.IdGeneration\Billy.IdGeneration.csproj" />
+      <ProjectReference Include="..\Billy.Metrics\Billy.Metrics.csproj" />
+      <ProjectReference Include="..\Billy.PostgreSQL.Marten\Billy.PostgreSQL.Marten.csproj" />
+      <ProjectReference Include="..\Billy.Receipts.Contracts\Billy.Receipts.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.Users.Contracts\Billy.Users.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.Users.Domain\Billy.Users.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>Billy.PolishReceiptRecognitionAlgorithm.Tests</AssemblyName>
+
+    <RootNamespace>Billy.PolishReceiptRecognitionAlgorithm.Tests</RootNamespace>
+   <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Receipts\AzureVisionAPI\receipt_id_14.json" />
+    <None Remove="Receipts\AzureVisionAPI\receipt_id_15.json" />
+    <None Remove="Receipts\AzureVisionAPI\receipt_id_16.json" />
+    <None Remove="Receipts\AzureVisionAPI\receipt_id_18.json" />
+    <None Remove="Receipts\AzureVisionAPI\receipt_id_19.json" />
+    <None Remove="Receipts\AzureVisionAPI\receipt_id_20.json" />
+    <None Remove="Receipts\GoogleVisionAPI\receipt_id_13_text_annotations.json" />
+    <None Remove="Receipts\GoogleVisionAPI\receipt_id_17_text_annotations.json" />
+    <None Remove="Receipts\UnifiedOcr\receipt_id_22.json" />
+    <None Remove="Receipts\UnifiedOcr\receipt_id_23.json" />
+    <None Remove="Receipts\UnifiedOcr\receipt_id_24.json" />
+    <None Remove="Receipts\UnifiedOcr\receipt_id_25.json" />
+    <None Remove="Receipts\UnifiedOcr\receipt_id_26.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Receipts\AzureVisionAPI\receipt_id_20.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Receipts\AzureVisionAPI\receipt_id_14.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\AzureVisionAPI\receipt_id_15.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\AzureVisionAPI\receipt_id_16.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\AzureVisionAPI\receipt_id_18.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\AzureVisionAPI\receipt_id_19.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\GoogleVisionAPI\receipt_id_13_text_annotations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\GoogleVisionAPI\receipt_id_17_text_annotations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\PrintedTextRecognitionResult\receipt_id_23.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\PrintedTextRecognitionResult\receipt_id_22.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\PrintedTextRecognitionResult\receipt_id_25.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipts\PrintedTextRecognitionResult\receipt_id_26.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.11.0" />
+    <PackageReference Include="FluentAssertions" Version="5.8.0" />
+    <PackageReference Include="Google.Cloud.Vision.V1" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="3.1.9" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="NSubstitute" Version="4.2.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Receipts\PrintedTextRecognitionResult\receipt_id_24.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Billy.PolishReceiptRecognitionAlgorithm.Geometry\Billy.PolishReceiptRecognitionAlgorithm.Geometry.csproj" />
+    <ProjectReference Include="..\Billy.PolishReceiptRecognitionAlgorithm.Grammar\Billy.PolishReceiptRecognitionAlgorithm.Grammar.csproj" />
+    <ProjectReference Include="..\Billy.PolishReceiptRecognitionAlgorithm\Billy.PolishReceiptRecognitionAlgorithm.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Receipts\Images\receipt_id_25.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+ 
+
+</Project>

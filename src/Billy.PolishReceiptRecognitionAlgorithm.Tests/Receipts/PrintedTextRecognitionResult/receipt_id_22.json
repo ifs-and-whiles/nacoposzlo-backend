@@ -1,0 +1,1695 @@
+{
+  "Detections": [
+    {
+      "Text": "Lidl sp. zo.0. sp. k.",
+      "LeftTop": {
+        "X": 854,
+        "Y": 235
+      },
+      "RightTop": {
+        "X": 1876,
+        "Y": 224
+      },
+      "LeftBottom": {
+        "X": 856,
+        "Y": 327
+      },
+      "RightBottom": {
+        "X": 1877,
+        "Y": 316
+      }
+    },
+    {
+      "Text": "Obroncow Poczty Gdanskiej",
+      "LeftTop": {
+        "X": 775,
+        "Y": 324
+      },
+      "RightTop": {
+        "X": 1895,
+        "Y": 308
+      },
+      "LeftBottom": {
+        "X": 777,
+        "Y": 418
+      },
+      "RightBottom": {
+        "X": 1897,
+        "Y": 402
+      }
+    },
+    {
+      "Text": "42-400 Zawiercie",
+      "LeftTop": {
+        "X": 1005,
+        "Y": 407
+      },
+      "RightTop": {
+        "X": 1725,
+        "Y": 408
+      },
+      "LeftBottom": {
+        "X": 1004,
+        "Y": 497
+      },
+      "RightBottom": {
+        "X": 1724,
+        "Y": 498
+      }
+    },
+    {
+      "Text": "2019-03-09",
+      "LeftTop": {
+        "X": 372,
+        "Y": 846
+      },
+      "RightTop": {
+        "X": 813,
+        "Y": 838
+      },
+      "LeftBottom": {
+        "X": 374,
+        "Y": 935
+      },
+      "RightBottom": {
+        "X": 815,
+        "Y": 927
+      }
+    },
+    {
+      "Text": "NIP 781-18-97-358",
+      "LeftTop": {
+        "X": 910,
+        "Y": 751
+      },
+      "RightTop": {
+        "X": 1683,
+        "Y": 741
+      },
+      "LeftBottom": {
+        "X": 912,
+        "Y": 851
+      },
+      "RightBottom": {
+        "X": 1684,
+        "Y": 840
+      }
+    },
+    {
+      "Text": "DOMESTOS PLYN",
+      "LeftTop": {
+        "X": 372,
+        "Y": 1021
+      },
+      "RightTop": {
+        "X": 960,
+        "Y": 1019
+      },
+      "LeftBottom": {
+        "X": 373,
+        "Y": 1111
+      },
+      "RightBottom": {
+        "X": 960,
+        "Y": 1108
+      }
+    },
+    {
+      "Text": "PARAGON FISKALNY",
+      "LeftTop": {
+        "X": 954,
+        "Y": 927
+      },
+      "RightTop": {
+        "X": 1685,
+        "Y": 918
+      },
+      "LeftBottom": {
+        "X": 956,
+        "Y": 1018
+      },
+      "RightBottom": {
+        "X": 1687,
+        "Y": 1010
+      }
+    },
+    {
+      "Text": "nr wydr. 134698",
+      "LeftTop": {
+        "X": 1627,
+        "Y": 838
+      },
+      "RightTop": {
+        "X": 2274,
+        "Y": 825
+      },
+      "LeftBottom": {
+        "X": 1629,
+        "Y": 933
+      },
+      "RightBottom": {
+        "X": 2276,
+        "Y": 920
+      }
+    },
+    {
+      "Text": "WAWEL KROWKA",
+      "LeftTop": {
+        "X": 367,
+        "Y": 1114
+      },
+      "RightTop": {
+        "X": 918,
+        "Y": 1108
+      },
+      "LeftBottom": {
+        "X": 368,
+        "Y": 1201
+      },
+      "RightBottom": {
+        "X": 919,
+        "Y": 1194
+      }
+    },
+    {
+      "Text": "X",
+      "LeftTop": {
+        "X": 1398,
+        "Y": 1025
+      },
+      "RightTop": {
+        "X": 1476,
+        "Y": 1024
+      },
+      "LeftBottom": {
+        "X": 1397,
+        "Y": 1118
+      },
+      "RightBottom": {
+        "X": 1475,
+        "Y": 1116
+      }
+    },
+    {
+      "Text": "1 * 9, 49 9, 49 A",
+      "LeftTop": {
+        "X": 1556,
+        "Y": 1014
+      },
+      "RightTop": {
+        "X": 2283,
+        "Y": 997
+      },
+      "LeftBottom": {
+        "X": 1559,
+        "Y": 1118
+      },
+      "RightBottom": {
+        "X": 2285,
+        "Y": 1100
+      }
+    },
+    {
+      "Text": "CUKIERKI MICHALKI",
+      "LeftTop": {
+        "X": 362,
+        "Y": 1285
+      },
+      "RightTop": {
+        "X": 1134,
+        "Y": 1282
+      },
+      "LeftBottom": {
+        "X": 363,
+        "Y": 1378
+      },
+      "RightBottom": {
+        "X": 1134,
+        "Y": 1374
+      }
+    },
+    {
+      "Text": "0, 09 * 19, 90 1,79 A",
+      "LeftTop": {
+        "X": 1397,
+        "Y": 1184
+      },
+      "RightTop": {
+        "X": 2283,
+        "Y": 1173
+      },
+      "LeftBottom": {
+        "X": 1399,
+        "Y": 1284
+      },
+      "RightBottom": {
+        "X": 2285,
+        "Y": 1273
+      }
+    },
+    {
+      "Text": "X",
+      "LeftTop": {
+        "X": 1402,
+        "Y": 1288
+      },
+      "RightTop": {
+        "X": 1473,
+        "Y": 1288
+      },
+      "LeftBottom": {
+        "X": 1400,
+        "Y": 1359
+      },
+      "RightBottom": {
+        "X": 1471,
+        "Y": 1360
+      }
+    },
+    {
+      "Text": "KWASEK CYTRYNOWY",
+      "LeftTop": {
+        "X": 361,
+        "Y": 1463
+      },
+      "RightTop": {
+        "X": 1103,
+        "Y": 1457
+      },
+      "LeftBottom": {
+        "X": 362,
+        "Y": 1552
+      },
+      "RightBottom": {
+        "X": 1103,
+        "Y": 1545
+      }
+    },
+    {
+      "Text": "0, 234 * 19, 90 4, 66 A",
+      "LeftTop": {
+        "X": 1365,
+        "Y": 1367
+      },
+      "RightTop": {
+        "X": 2283,
+        "Y": 1356
+      },
+      "LeftBottom": {
+        "X": 1367,
+        "Y": 1460
+      },
+      "RightBottom": {
+        "X": 2285,
+        "Y": 1448
+      }
+    },
+    {
+      "Text": "PRZYPRAWA CURRY",
+      "LeftTop": {
+        "X": 364,
+        "Y": 1554
+      },
+      "RightTop": {
+        "X": 1045,
+        "Y": 1550
+      },
+      "LeftBottom": {
+        "X": 365,
+        "Y": 1642
+      },
+      "RightBottom": {
+        "X": 1045,
+        "Y": 1637
+      }
+    },
+    {
+      "Text": "HHX",
+      "LeftTop": {
+        "X": 1408,
+        "Y": 1730
+      },
+      "RightTop": {
+        "X": 1402,
+        "Y": 1482
+      },
+      "LeftBottom": {
+        "X": 1458,
+        "Y": 1728
+      },
+      "RightBottom": {
+        "X": 1453,
+        "Y": 1480
+      }
+    },
+    {
+      "Text": "4 * 2,99 11,96 A",
+      "LeftTop": {
+        "X": 1537,
+        "Y": 1457
+      },
+      "RightTop": {
+        "X": 2288,
+        "Y": 1449
+      },
+      "LeftBottom": {
+        "X": 1538,
+        "Y": 1545
+      },
+      "RightBottom": {
+        "X": 2289,
+        "Y": 1537
+      }
+    },
+    {
+      "Text": "PRZYPRAWA MAJERANEK",
+      "LeftTop": {
+        "X": 367,
+        "Y": 1637
+      },
+      "RightTop": {
+        "X": 1240,
+        "Y": 1636
+      },
+      "LeftBottom": {
+        "X": 368,
+        "Y": 1725
+      },
+      "RightBottom": {
+        "X": 1240,
+        "Y": 1723
+      }
+    },
+    {
+      "Text": "* 0, 79 3, 16",
+      "LeftTop": {
+        "X": 1661,
+        "Y": 1540
+      },
+      "RightTop": {
+        "X": 2215,
+        "Y": 1532
+      },
+      "LeftBottom": {
+        "X": 1663,
+        "Y": 1631
+      },
+      "RightBottom": {
+        "X": 2217,
+        "Y": 1624
+      }
+    },
+    {
+      "Text": "*",
+      "LeftTop": {
+        "X": 1657,
+        "Y": 1647
+      },
+      "RightTop": {
+        "X": 1752,
+        "Y": 1646
+      },
+      "LeftBottom": {
+        "X": 1657,
+        "Y": 1708
+      },
+      "RightBottom": {
+        "X": 1752,
+        "Y": 1708
+      }
+    },
+    {
+      "Text": "PRZYPRAWA TYMIANEK",
+      "LeftTop": {
+        "X": 371,
+        "Y": 1724
+      },
+      "RightTop": {
+        "X": 1190,
+        "Y": 1726
+      },
+      "LeftBottom": {
+        "X": 370,
+        "Y": 1815
+      },
+      "RightBottom": {
+        "X": 1189,
+        "Y": 1817
+      }
+    },
+    {
+      "Text": "0,69 2,07 B",
+      "LeftTop": {
+        "X": 1751,
+        "Y": 1634
+      },
+      "RightTop": {
+        "X": 2298,
+        "Y": 1622
+      },
+      "LeftBottom": {
+        "X": 1753,
+        "Y": 1722
+      },
+      "RightBottom": {
+        "X": 2299,
+        "Y": 1709
+      }
+    },
+    {
+      "Text": "WRIGLEY'S GUMA II",
+      "LeftTop": {
+        "X": 363,
+        "Y": 1819
+      },
+      "RightTop": {
+        "X": 1151,
+        "Y": 1814
+      },
+      "LeftBottom": {
+        "X": 364,
+        "Y": 1901
+      },
+      "RightBottom": {
+        "X": 1152,
+        "Y": 1896
+      }
+    },
+    {
+      "Text": "* 0, 99 2,97",
+      "LeftTop": {
+        "X": 1654,
+        "Y": 1715
+      },
+      "RightTop": {
+        "X": 2244,
+        "Y": 1708
+      },
+      "LeftBottom": {
+        "X": 1655,
+        "Y": 1809
+      },
+      "RightBottom": {
+        "X": 2245,
+        "Y": 1801
+      }
+    },
+    {
+      "Text": "PRZYPRAWA KEBAB-GYRO",
+      "LeftTop": {
+        "X": 360,
+        "Y": 1903
+      },
+      "RightTop": {
+        "X": 1280,
+        "Y": 1899
+      },
+      "LeftBottom": {
+        "X": 361,
+        "Y": 1995
+      },
+      "RightBottom": {
+        "X": 1280,
+        "Y": 1990
+      }
+    },
+    {
+      "Text": "BIO CYTRYNY SWIEZE",
+      "LeftTop": {
+        "X": 365,
+        "Y": 2087
+      },
+      "RightTop": {
+        "X": 1196,
+        "Y": 2084
+      },
+      "LeftBottom": {
+        "X": 366,
+        "Y": 2172
+      },
+      "RightBottom": {
+        "X": 1197,
+        "Y": 2170
+      }
+    },
+    {
+      "Text": "TXXX TIHHHH",
+      "LeftTop": {
+        "X": 1410,
+        "Y": 2593
+      },
+      "RightTop": {
+        "X": 1406,
+        "Y": 1815
+      },
+      "LeftBottom": {
+        "X": 1466,
+        "Y": 2593
+      },
+      "RightBottom": {
+        "X": 1462,
+        "Y": 1814
+      }
+    },
+    {
+      "Text": "* 3,49 3, 49",
+      "LeftTop": {
+        "X": 1656,
+        "Y": 1801
+      },
+      "RightTop": {
+        "X": 2210,
+        "Y": 1800
+      },
+      "LeftBottom": {
+        "X": 1657,
+        "Y": 1889
+      },
+      "RightBottom": {
+        "X": 2211,
+        "Y": 1888
+      }
+    },
+    {
+      "Text": "* 0, 99 2,97",
+      "LeftTop": {
+        "X": 1653,
+        "Y": 1895
+      },
+      "RightTop": {
+        "X": 2213,
+        "Y": 1893
+      },
+      "LeftBottom": {
+        "X": 1654,
+        "Y": 1979
+      },
+      "RightBottom": {
+        "X": 2214,
+        "Y": 1977
+      }
+    },
+    {
+      "Text": "PRZYP . ZIOLA TOSKAN.",
+      "LeftTop": {
+        "X": 369,
+        "Y": 1995
+      },
+      "RightTop": {
+        "X": 1231,
+        "Y": 1996
+      },
+      "LeftBottom": {
+        "X": 368,
+        "Y": 2083
+      },
+      "RightBottom": {
+        "X": 1230,
+        "Y": 2084
+      }
+    },
+    {
+      "Text": "N",
+      "LeftTop": {
+        "X": 1782,
+        "Y": 2086
+      },
+      "RightTop": {
+        "X": 1773,
+        "Y": 2000
+      },
+      "LeftBottom": {
+        "X": 1843,
+        "Y": 2078
+      },
+      "RightBottom": {
+        "X": 1835,
+        "Y": 1991
+      }
+    },
+    {
+      "Text": "8, 97",
+      "LeftTop": {
+        "X": 1996,
+        "Y": 1989
+      },
+      "RightTop": {
+        "X": 2249,
+        "Y": 1979
+      },
+      "LeftBottom": {
+        "X": 2000,
+        "Y": 2077
+      },
+      "RightBottom": {
+        "X": 2252,
+        "Y": 2066
+      }
+    },
+    {
+      "Text": "- 00 M",
+      "LeftTop": {
+        "X": 1995,
+        "Y": 2158
+      },
+      "RightTop": {
+        "X": 1999,
+        "Y": 1900
+      },
+      "LeftBottom": {
+        "X": 2060,
+        "Y": 2159
+      },
+      "RightBottom": {
+        "X": 2064,
+        "Y": 1901
+      }
+    },
+    {
+      "Text": "BIO ZIEMNIAK SWIEZY",
+      "LeftTop": {
+        "X": 361,
+        "Y": 2175
+      },
+      "RightTop": {
+        "X": 1238,
+        "Y": 2172
+      },
+      "LeftBottom": {
+        "X": 362,
+        "Y": 2259
+      },
+      "RightBottom": {
+        "X": 1239,
+        "Y": 2256
+      }
+    },
+    {
+      "Text": "2 + 5, 99 11, 98",
+      "LeftTop": {
+        "X": 1544,
+        "Y": 2071
+      },
+      "RightTop": {
+        "X": 2250,
+        "Y": 2062
+      },
+      "LeftBottom": {
+        "X": 1546,
+        "Y": 2172
+      },
+      "RightBottom": {
+        "X": 2251,
+        "Y": 2162
+      }
+    },
+    {
+      "Text": "WORKI NA SMIECI 35L",
+      "LeftTop": {
+        "X": 363,
+        "Y": 2263
+      },
+      "RightTop": {
+        "X": 1235,
+        "Y": 2251
+      },
+      "LeftBottom": {
+        "X": 365,
+        "Y": 2355
+      },
+      "RightBottom": {
+        "X": 1236,
+        "Y": 2342
+      }
+    },
+    {
+      "Text": "1 * 7,49 7, 49",
+      "LeftTop": {
+        "X": 1610,
+        "Y": 2166
+      },
+      "RightTop": {
+        "X": 2253,
+        "Y": 2153
+      },
+      "LeftBottom": {
+        "X": 1612,
+        "Y": 2256
+      },
+      "RightBottom": {
+        "X": 2254,
+        "Y": 2243
+      }
+    },
+    {
+      "Text": "OCET SPIRYTUSOWY",
+      "LeftTop": {
+        "X": 361,
+        "Y": 2353
+      },
+      "RightTop": {
+        "X": 1106,
+        "Y": 2347
+      },
+      "LeftBottom": {
+        "X": 362,
+        "Y": 2438
+      },
+      "RightBottom": {
+        "X": 1107,
+        "Y": 2431
+      }
+    },
+    {
+      "Text": "5, 18 A",
+      "LeftTop": {
+        "X": 1981,
+        "Y": 2250
+      },
+      "RightTop": {
+        "X": 2272,
+        "Y": 2247
+      },
+      "LeftBottom": {
+        "X": 1983,
+        "Y": 2342
+      },
+      "RightBottom": {
+        "X": 2273,
+        "Y": 2338
+      }
+    },
+    {
+      "Text": "JACOBS KR_NUNG KAWA",
+      "LeftTop": {
+        "X": 359,
+        "Y": 2444
+      },
+      "RightTop": {
+        "X": 1235,
+        "Y": 2434
+      },
+      "LeftBottom": {
+        "X": 361,
+        "Y": 2534
+      },
+      "RightBottom": {
+        "X": 1237,
+        "Y": 2524
+      }
+    },
+    {
+      "Text": "39 1,89 A",
+      "LeftTop": {
+        "X": 1881,
+        "Y": 2340
+      },
+      "RightTop": {
+        "X": 2314,
+        "Y": 2339
+      },
+      "LeftBottom": {
+        "X": 1882,
+        "Y": 2429
+      },
+      "RightBottom": {
+        "X": 2315,
+        "Y": 2428
+      }
+    },
+    {
+      "Text": "1",
+      "LeftTop": {
+        "X": 1504,
+        "Y": 2441
+      },
+      "RightTop": {
+        "X": 1574,
+        "Y": 2446
+      },
+      "LeftBottom": {
+        "X": 1502,
+        "Y": 2512
+      },
+      "RightBottom": {
+        "X": 1571,
+        "Y": 2517
+      }
+    },
+    {
+      "Text": "BIO KALAF . SW. , LUZ",
+      "LeftTop": {
+        "X": 362,
+        "Y": 2535
+      },
+      "RightTop": {
+        "X": 1195,
+        "Y": 2528
+      },
+      "LeftBottom": {
+        "X": 363,
+        "Y": 2620
+      },
+      "RightBottom": {
+        "X": 1196,
+        "Y": 2613
+      }
+    },
+    {
+      "Text": "21 , 79 21,79 A",
+      "LeftTop": {
+        "X": 1587,
+        "Y": 2440
+      },
+      "RightTop": {
+        "X": 2310,
+        "Y": 2429
+      },
+      "LeftBottom": {
+        "X": 1589,
+        "Y": 2526
+      },
+      "RightBottom": {
+        "X": 2312,
+        "Y": 2515
+      }
+    },
+    {
+      "Text": "WINIARY MAJONEZ",
+      "LeftTop": {
+        "X": 360,
+        "Y": 2712
+      },
+      "RightTop": {
+        "X": 1054,
+        "Y": 2706
+      },
+      "LeftBottom": {
+        "X": 361,
+        "Y": 2800
+      },
+      "RightBottom": {
+        "X": 1055,
+        "Y": 2793
+      }
+    },
+    {
+      "Text": "0,668 * 12, 99 8, 68 C",
+      "LeftTop": {
+        "X": 1374,
+        "Y": 2613
+      },
+      "RightTop": {
+        "X": 2304,
+        "Y": 2612
+      },
+      "LeftBottom": {
+        "X": 1375,
+        "Y": 2709
+      },
+      "RightBottom": {
+        "X": 2305,
+        "Y": 2708
+      }
+    },
+    {
+      "Text": "JAJA EKO M, L, XL",
+      "LeftTop": {
+        "X": 362,
+        "Y": 2808
+      },
+      "RightTop": {
+        "X": 1072,
+        "Y": 2794
+      },
+      "LeftBottom": {
+        "X": 364,
+        "Y": 2898
+      },
+      "RightBottom": {
+        "X": 1074,
+        "Y": 2884
+      }
+    },
+    {
+      "Text": "1 * 4, 79 4,79",
+      "LeftTop": {
+        "X": 1589,
+        "Y": 2702
+      },
+      "RightTop": {
+        "X": 2269,
+        "Y": 2700
+      },
+      "LeftBottom": {
+        "X": 1590,
+        "Y": 2791
+      },
+      "RightBottom": {
+        "X": 2269,
+        "Y": 2788
+      }
+    },
+    {
+      "Text": "HERBATKA ZIOLOWA",
+      "LeftTop": {
+        "X": 356,
+        "Y": 2892
+      },
+      "RightTop": {
+        "X": 1105,
+        "Y": 2882
+      },
+      "LeftBottom": {
+        "X": 358,
+        "Y": 2986
+      },
+      "RightBottom": {
+        "X": 1106,
+        "Y": 2975
+      }
+    },
+    {
+      "Text": "2 * 9, 29 18,58",
+      "LeftTop": {
+        "X": 1546,
+        "Y": 2797
+      },
+      "RightTop": {
+        "X": 2219,
+        "Y": 2794
+      },
+      "LeftBottom": {
+        "X": 1547,
+        "Y": 2882
+      },
+      "RightBottom": {
+        "X": 2220,
+        "Y": 2878
+      }
+    },
+    {
+      "Text": "* 3",
+      "LeftTop": {
+        "X": 1674,
+        "Y": 2898
+      },
+      "RightTop": {
+        "X": 1846,
+        "Y": 2904
+      },
+      "LeftBottom": {
+        "X": 1678,
+        "Y": 2968
+      },
+      "RightBottom": {
+        "X": 1850,
+        "Y": 2972
+      }
+    },
+    {
+      "Text": "HERB . ZIOL . EKSP.",
+      "LeftTop": {
+        "X": 362,
+        "Y": 2990
+      },
+      "RightTop": {
+        "X": 1046,
+        "Y": 2977
+      },
+      "LeftBottom": {
+        "X": 364,
+        "Y": 3083
+      },
+      "RightBottom": {
+        "X": 1048,
+        "Y": 3070
+      }
+    },
+    {
+      "Text": "3,95",
+      "LeftTop": {
+        "X": 2012,
+        "Y": 2890
+      },
+      "RightTop": {
+        "X": 2224,
+        "Y": 2888
+      },
+      "LeftBottom": {
+        "X": 2007,
+        "Y": 2968
+      },
+      "RightBottom": {
+        "X": 2225,
+        "Y": 2967
+      }
+    },
+    {
+      "Text": "HERB . ZIOL , EKSP.",
+      "LeftTop": {
+        "X": 358,
+        "Y": 3083
+      },
+      "RightTop": {
+        "X": 1063,
+        "Y": 3068
+      },
+      "LeftBottom": {
+        "X": 360,
+        "Y": 3166
+      },
+      "RightBottom": {
+        "X": 1065,
+        "Y": 3151
+      }
+    },
+    {
+      "Text": "TITIXXX TIA",
+      "LeftTop": {
+        "X": 1414,
+        "Y": 3344
+      },
+      "RightTop": {
+        "X": 1404,
+        "Y": 2678
+      },
+      "LeftBottom": {
+        "X": 1477,
+        "Y": 3343
+      },
+      "RightBottom": {
+        "X": 1468,
+        "Y": 2677
+      }
+    },
+    {
+      "Text": "2,29 2,29 A",
+      "LeftTop": {
+        "X": 1723,
+        "Y": 2990
+      },
+      "RightTop": {
+        "X": 2314,
+        "Y": 2973
+      },
+      "LeftBottom": {
+        "X": 1726,
+        "Y": 3072
+      },
+      "RightBottom": {
+        "X": 2317,
+        "Y": 3055
+      }
+    },
+    {
+      "Text": "CHRUPKI KUKURYDZ .",
+      "LeftTop": {
+        "X": 355,
+        "Y": 3164
+      },
+      "RightTop": {
+        "X": 1133,
+        "Y": 3154
+      },
+      "LeftBottom": {
+        "X": 357,
+        "Y": 3262
+      },
+      "RightBottom": {
+        "X": 1135,
+        "Y": 3252
+      }
+    },
+    {
+      "Text": ": 2, 29 2,29 A",
+      "LeftTop": {
+        "X": 1720,
+        "Y": 3077
+      },
+      "RightTop": {
+        "X": 2332,
+        "Y": 3058
+      },
+      "LeftBottom": {
+        "X": 1723,
+        "Y": 3163
+      },
+      "RightBottom": {
+        "X": 2335,
+        "Y": 3144
+      }
+    },
+    {
+      "Text": "CHRUPKI KUKURYDZ.",
+      "LeftTop": {
+        "X": 364,
+        "Y": 3259
+      },
+      "RightTop": {
+        "X": 1136,
+        "Y": 3250
+      },
+      "LeftBottom": {
+        "X": 366,
+        "Y": 3354
+      },
+      "RightBottom": {
+        "X": 1138,
+        "Y": 3346
+      }
+    },
+    {
+      "Text": "* 1, 19",
+      "LeftTop": {
+        "X": 1677,
+        "Y": 3153
+      },
+      "RightTop": {
+        "X": 1997,
+        "Y": 3183
+      },
+      "LeftBottom": {
+        "X": 1675,
+        "Y": 3245
+      },
+      "RightBottom": {
+        "X": 2009,
+        "Y": 3278
+      }
+    },
+    {
+      "Text": "2,38 C",
+      "LeftTop": {
+        "X": 2137,
+        "Y": 3160
+      },
+      "RightTop": {
+        "X": 2313,
+        "Y": 3145
+      },
+      "LeftBottom": {
+        "X": 2135,
+        "Y": 3252
+      },
+      "RightBottom": {
+        "X": 2324,
+        "Y": 3240
+      }
+    },
+    {
+      "Text": "*",
+      "LeftTop": {
+        "X": 1695,
+        "Y": 3264
+      },
+      "RightTop": {
+        "X": 1768,
+        "Y": 3268
+      },
+      "LeftBottom": {
+        "X": 1693,
+        "Y": 3324
+      },
+      "RightBottom": {
+        "X": 1765,
+        "Y": 3327
+      }
+    },
+    {
+      "Text": "1, 19 2, 38 C",
+      "LeftTop": {
+        "X": 1781,
+        "Y": 3259
+      },
+      "RightTop": {
+        "X": 2311,
+        "Y": 3243
+      },
+      "LeftBottom": {
+        "X": 1784,
+        "Y": 3348
+      },
+      "RightBottom": {
+        "X": 2313,
+        "Y": 3332
+      }
+    },
+    {
+      "Text": "Sprzed. opod. PTU A",
+      "LeftTop": {
+        "X": 352,
+        "Y": 3397
+      },
+      "RightTop": {
+        "X": 1251,
+        "Y": 3387
+      },
+      "LeftBottom": {
+        "X": 354,
+        "Y": 3494
+      },
+      "RightBottom": {
+        "X": 1253,
+        "Y": 3484
+      }
+    },
+    {
+      "Text": "Kwota A 23,00%",
+      "LeftTop": {
+        "X": 353,
+        "Y": 3486
+      },
+      "RightTop": {
+        "X": 1002,
+        "Y": 3482
+      },
+      "LeftBottom": {
+        "X": 354,
+        "Y": 3585
+      },
+      "RightBottom": {
+        "X": 1003,
+        "Y": 3581
+      }
+    },
+    {
+      "Text": "68 26",
+      "LeftTop": {
+        "X": 1984,
+        "Y": 3400
+      },
+      "RightTop": {
+        "X": 2214,
+        "Y": 3391
+      },
+      "LeftBottom": {
+        "X": 1982,
+        "Y": 3480
+      },
+      "RightBottom": {
+        "X": 2212,
+        "Y": 3476
+      }
+    },
+    {
+      "Text": "Sprzed, opod. PTU B",
+      "LeftTop": {
+        "X": 349,
+        "Y": 3587
+      },
+      "RightTop": {
+        "X": 1244,
+        "Y": 3575
+      },
+      "LeftBottom": {
+        "X": 351,
+        "Y": 3680
+      },
+      "RightBottom": {
+        "X": 1246,
+        "Y": 3668
+      }
+    },
+    {
+      "Text": "12, 76",
+      "LeftTop": {
+        "X": 1991,
+        "Y": 3489
+      },
+      "RightTop": {
+        "X": 2221,
+        "Y": 3480
+      },
+      "LeftBottom": {
+        "X": 1991,
+        "Y": 3577
+      },
+      "RightBottom": {
+        "X": 2219,
+        "Y": 3569
+      }
+    },
+    {
+      "Text": "Kwota B 08, 00%",
+      "LeftTop": {
+        "X": 345,
+        "Y": 3672
+      },
+      "RightTop": {
+        "X": 1015,
+        "Y": 3667
+      },
+      "LeftBottom": {
+        "X": 346,
+        "Y": 3768
+      },
+      "RightBottom": {
+        "X": 1016,
+        "Y": 3764
+      }
+    },
+    {
+      "Text": "37 ,43",
+      "LeftTop": {
+        "X": 1985,
+        "Y": 3582
+      },
+      "RightTop": {
+        "X": 2223,
+        "Y": 3573
+      },
+      "LeftBottom": {
+        "X": 1984,
+        "Y": 3670
+      },
+      "RightBottom": {
+        "X": 2226,
+        "Y": 3656
+      }
+    },
+    {
+      "Text": "Sprzed. opod. PTU C",
+      "LeftTop": {
+        "X": 353,
+        "Y": 3764
+      },
+      "RightTop": {
+        "X": 1248,
+        "Y": 3757
+      },
+      "LeftBottom": {
+        "X": 353,
+        "Y": 3862
+      },
+      "RightBottom": {
+        "X": 1249,
+        "Y": 3855
+      }
+    },
+    {
+      "Text": "2,77",
+      "LeftTop": {
+        "X": 2020,
+        "Y": 3671
+      },
+      "RightTop": {
+        "X": 2220,
+        "Y": 3663
+      },
+      "LeftBottom": {
+        "X": 2020,
+        "Y": 3757
+      },
+      "RightBottom": {
+        "X": 2216,
+        "Y": 3751
+      }
+    },
+    {
+      "Text": "Kwota C 05, 00%",
+      "LeftTop": {
+        "X": 349,
+        "Y": 3856
+      },
+      "RightTop": {
+        "X": 1003,
+        "Y": 3853
+      },
+      "LeftBottom": {
+        "X": 350,
+        "Y": 3949
+      },
+      "RightBottom": {
+        "X": 1004,
+        "Y": 3946
+      }
+    },
+    {
+      "Text": "39,51",
+      "LeftTop": {
+        "X": 1980,
+        "Y": 3764
+      },
+      "RightTop": {
+        "X": 2219,
+        "Y": 3755
+      },
+      "LeftBottom": {
+        "X": 1981,
+        "Y": 3847
+      },
+      "RightBottom": {
+        "X": 2218,
+        "Y": 3844
+      }
+    },
+    {
+      "Text": "Podatek PTU",
+      "LeftTop": {
+        "X": 347,
+        "Y": 3943
+      },
+      "RightTop": {
+        "X": 873,
+        "Y": 3945
+      },
+      "LeftBottom": {
+        "X": 346,
+        "Y": 4036
+      },
+      "RightBottom": {
+        "X": 872,
+        "Y": 4038
+      }
+    },
+    {
+      "Text": "1 ,88",
+      "LeftTop": {
+        "X": 2024,
+        "Y": 3855
+      },
+      "RightTop": {
+        "X": 2218,
+        "Y": 3851
+      },
+      "LeftBottom": {
+        "X": 2025,
+        "Y": 3947
+      },
+      "RightBottom": {
+        "X": 2220,
+        "Y": 3936
+      }
+    },
+    {
+      "Text": "SUMA PLN",
+      "LeftTop": {
+        "X": 356,
+        "Y": 4034
+      },
+      "RightTop": {
+        "X": 1107,
+        "Y": 4038
+      },
+      "LeftBottom": {
+        "X": 355,
+        "Y": 4208
+      },
+      "RightBottom": {
+        "X": 1106,
+        "Y": 4212
+      }
+    },
+    {
+      "Text": "17, 41",
+      "LeftTop": {
+        "X": 1994,
+        "Y": 3944
+      },
+      "RightTop": {
+        "X": 2219,
+        "Y": 3932
+      },
+      "LeftBottom": {
+        "X": 1992,
+        "Y": 4028
+      },
+      "RightBottom": {
+        "X": 2219,
+        "Y": 4025
+      }
+    },
+    {
+      "Text": "000552 #5",
+      "LeftTop": {
+        "X": 350,
+        "Y": 4213
+      },
+      "RightTop": {
+        "X": 790,
+        "Y": 4216
+      },
+      "LeftBottom": {
+        "X": 350,
+        "Y": 4310
+      },
+      "RightBottom": {
+        "X": 789,
+        "Y": 4313
+      }
+    },
+    {
+      "Text": "145,20",
+      "LeftTop": {
+        "X": 1769,
+        "Y": 4037
+      },
+      "RightTop": {
+        "X": 2316,
+        "Y": 4032
+      },
+      "LeftBottom": {
+        "X": 1771,
+        "Y": 4205
+      },
+      "RightBottom": {
+        "X": 2318,
+        "Y": 4199
+      }
+    },
+    {
+      "Text": "18 1836",
+      "LeftTop": {
+        "X": 953,
+        "Y": 4226
+      },
+      "RightTop": {
+        "X": 1291,
+        "Y": 4221
+      },
+      "LeftBottom": {
+        "X": 955,
+        "Y": 4318
+      },
+      "RightBottom": {
+        "X": 1293,
+        "Y": 4313
+      }
+    },
+    {
+      "Text": "nr : 101214",
+      "LeftTop": {
+        "X": 1464,
+        "Y": 4224
+      },
+      "RightTop": {
+        "X": 1907,
+        "Y": 4211
+      },
+      "LeftBottom": {
+        "X": 1467,
+        "Y": 4319
+      },
+      "RightBottom": {
+        "X": 1909,
+        "Y": 4305
+      }
+    },
+    {
+      "Text": "12IAU-ZO9YA-DCV28-EV1V1-F51Y4",
+      "LeftTop": {
+        "X": 652,
+        "Y": 4313
+      },
+      "RightTop": {
+        "X": 2000,
+        "Y": 4302
+      },
+      "LeftBottom": {
+        "X": 652,
+        "Y": 4415
+      },
+      "RightBottom": {
+        "X": 2001,
+        "Y": 4404
+      }
+    },
+    {
+      "Text": "18:04",
+      "LeftTop": {
+        "X": 2066,
+        "Y": 4213
+      },
+      "RightTop": {
+        "X": 2308,
+        "Y": 4206
+      },
+      "LeftBottom": {
+        "X": 2069,
+        "Y": 4305
+      },
+      "RightBottom": {
+        "X": 2312,
+        "Y": 4294
+      }
+    },
+    {
+      "Text": "Platnosc",
+      "LeftTop": {
+        "X": 362,
+        "Y": 4474
+      },
+      "RightTop": {
+        "X": 757,
+        "Y": 4483
+      },
+      "LeftBottom": {
+        "X": 359,
+        "Y": 4582
+      },
+      "RightBottom": {
+        "X": 755,
+        "Y": 4591
+      }
+    },
+    {
+      "Text": "A BGI 15495551",
+      "LeftTop": {
+        "X": 960,
+        "Y": 4412
+      },
+      "RightTop": {
+        "X": 1724,
+        "Y": 4395
+      },
+      "LeftBottom": {
+        "X": 963,
+        "Y": 4509
+      },
+      "RightBottom": {
+        "X": 1727,
+        "Y": 4492
+      }
+    },
+    {
+      "Text": "Karta platnicza 145, 20",
+      "LeftTop": {
+        "X": 1279,
+        "Y": 4498
+      },
+      "RightTop": {
+        "X": 2313,
+        "Y": 4470
+      },
+      "LeftBottom": {
+        "X": 1282,
+        "Y": 4601
+      },
+      "RightBottom": {
+        "X": 2315,
+        "Y": 4572
+      }
+    }
+  ]
+}

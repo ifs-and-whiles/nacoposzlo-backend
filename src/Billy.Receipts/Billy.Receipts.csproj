@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+   <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="MassTransit" Version="7.0.6" />
+    <PackageReference Include="MassTransit.Autofac" Version="7.0.6" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Billy.CQRS\Billy.CQRS.csproj" />
+    <ProjectReference Include="..\Billy.IdGeneration\Billy.IdGeneration.csproj" />
+    <ProjectReference Include="..\Billy.Metrics\Billy.Metrics.csproj" />
+    <ProjectReference Include="..\Billy.PostgreSQL.Marten\Billy.PostgreSQL.Marten.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.AWS.VisionAPI\Billy.Receipts.AWS.VisionAPI.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.Contracts\Billy.Receipts.Contracts.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.Domain\Billy.Receipts.Domain.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.Recognition.PolishReceiptRecognitionAlgorithm\Billy.Receipts.Recognition.PolishReceiptRecognitionAlgorithm.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.Storage.Minio\Billy.Receipts.Storage.Minio.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.Storage.S3\Billy.Receipts.Storage.S3.csproj" />
+    <ProjectReference Include="..\Billy.Users.Contracts\Billy.Users.Contracts.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Billy.Receipts.Recognition.PolishReceiptRecognitionAlgorithm</RootNamespace>
+    <AssemblyName>Billy.Receipts.Recognition.PolishReceiptRecognitionAlgorithm</AssemblyName>
+   <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Billy.Metrics\Billy.Metrics.csproj" />
+    <ProjectReference Include="..\Billy.PolishReceiptRecognitionAlgorithm\Billy.PolishReceiptRecognitionAlgorithm.csproj" />
+    <ProjectReference Include="..\Billy.Receipts.Domain\Billy.Receipts.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

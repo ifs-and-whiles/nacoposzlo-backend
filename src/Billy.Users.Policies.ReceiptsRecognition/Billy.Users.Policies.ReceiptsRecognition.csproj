@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="4.9.4" />
+        <PackageReference Include="Serilog" Version="2.9.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Billy.PostgreSQL.Marten\Billy.PostgreSQL.Marten.csproj" />
+      <ProjectReference Include="..\Billy.Receipts.Contracts\Billy.Receipts.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.Users.Contracts\Billy.Users.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.Users.Domain\Billy.Users.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

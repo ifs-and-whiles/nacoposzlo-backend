@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Billy.Expenses.Domain</AssemblyName>
+    <RootNamespace>Billy.Expenses.Domain</RootNamespace>
+   <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Billy.CodeReadability\Billy.CodeReadability.csproj" />
+    <ProjectReference Include="..\Billy.Domain\Billy.Domain.csproj" />
+    <ProjectReference Include="..\Billy.EventSourcing\Billy.EventSourcing.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,62 @@
+version: '3.1'
+services:
+
+  seq:
+    image: datalust/seq:5.0.2394
+    environment:
+      ACCEPT_EULA: "Y"
+    ports:
+      - 5342:5341
+      - 5343:80
+    volumes:
+      - billy-seq:/data/seq
+
+  db:
+    image: postgres:12.1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: temporarypassword
+      POSTGRES_DB: billy
+    ports:
+      - "5432:5432"
+    volumes:
+      - billy-postgres-data:/var/lib/postgresql/data
+      
+  rabbitmq:
+    image: "rabbitmq:3.7.3"
+    hostname: billy-rabbitmq # required to persist data properly, Mnesia uses hostname in folder structure
+    ports:
+      - "5672:5672"
+      - "15671:15671"
+    volumes:
+      - "./rabbitmq-config:/etc/rabbitmq"
+      - "/Users/filipp/Documents/projekty/nacoposzlo-core/docker-compose/full-environment/rabbitmq:/var/lib/rabbitmq"
+    restart: always
+    
+  prometheus:
+    image: prom/prometheus:v2.13.1
+    volumes:
+      - billy-prometheus-data:/prometheus
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml 
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - '9090:9090'
+
+  grafana:
+    image: grafana/grafana:6.4.3
+    volumes:
+      - billy-grafana-data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - prometheus
+    ports:
+       - "3000:3000"
+
+volumes:
+  billy-postgres-data:
+  billy-seq:
+  billy-prometheus-data:
+  billy-grafana-data:

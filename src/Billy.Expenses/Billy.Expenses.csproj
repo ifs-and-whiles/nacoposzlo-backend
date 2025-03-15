@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Billy.Expenses</AssemblyName>
+    <RootNamespace>Billy.Expenses</RootNamespace>
+   <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <ProjectReference Include="..\Billy.CQRS\Billy.CQRS.csproj" />
+    <ProjectReference Include="..\Billy.EventSourcing\Billy.EventSourcing.csproj" />
+    <ProjectReference Include="..\Billy.EventStore\Billy.EventStore.csproj" />
+    <ProjectReference Include="..\Billy.Expenses.Contracts\Billy.Expenses.Contracts.csproj" />
+    <ProjectReference Include="..\Billy.Expenses.Domain\Billy.Expenses.Domain.csproj" />
+    <ProjectReference Include="..\Billy.IdGeneration\Billy.IdGeneration.csproj" />
+    <ProjectReference Include="..\Billy.Metrics\Billy.Metrics.csproj" />
+    <ProjectReference Include="..\Billy.PostgreSQL.Marten\Billy.PostgreSQL.Marten.csproj" />
+  </ItemGroup>
+
+</Project>

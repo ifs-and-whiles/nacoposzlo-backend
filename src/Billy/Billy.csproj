@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+   <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="logs\**" />
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="logs\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="logs\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="logs\**" />
+    <None Remove="wwwroot\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.Aws.S3" Version="3.1.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="3.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="3.1.3" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="3.1.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="3.1.2" />
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.2" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+    <PackageReference Include="AWSSDK.S3" Version="3.5.3.8" />
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.5.1.3" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.5.0.34" />
+    <PackageReference Include="AWSSDK.Textract" Version="3.5.2.2" />
+    <PackageReference Include="Marten" Version="3.13.1" />
+    <PackageReference Include="MassTransit" Version="7.0.6" />
+    <PackageReference Include="MassTransit.AmazonSQS" Version="7.0.6" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.0.6" />
+    <PackageReference Include="MassTransit.Autofac" Version="7.0.6" />
+    <PackageReference Include="MassTransit.Prometheus" Version="7.0.6" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.9" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0" />
+    <PackageReference Include="Prometheus.Client.AspNetCore" Version="3.0.1" />
+    <PackageReference Include="Prometheus.Client.HttpRequestDurations" Version="2.0.1" />
+    <PackageReference Include="RT.Comb" Version="2.3.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="4.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Billy.CQRS\Billy.CQRS.csproj" />
+    <ProjectReference Include="..\Billy.EventSourcing\Billy.EventSourcing.csproj" />
+    <ProjectReference Include="..\Billy.EventStore\Billy.EventStore.csproj" />
+    <ProjectReference Include="..\Billy.Expenses.Domain\Billy.Expenses.Domain.csproj" />
+    <ProjectReference Include="..\Billy.Expenses\Billy.Expenses.csproj" />
+    <ProjectReference Include="..\Billy.IdGeneration\Billy.IdGeneration.csproj" />
+    <ProjectReference Include="..\Billy.Metrics\Billy.Metrics.csproj" />
+    <ProjectReference Include="..\Billy.MobileApi.Contracts\Billy.MobileApi.Contracts.csproj" />
+    <ProjectReference Include="..\Billy.MobileApi\Billy.MobileApi.csproj" />
+    <ProjectReference Include="..\Billy.Receipts\Billy.Receipts.csproj" />
+    <ProjectReference Include="..\Billy.Users.Contracts\Billy.Users.Contracts.csproj" />
+    <ProjectReference Include="..\Billy.Users\Billy.Users.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>8.0</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="6.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Billy.CQRS\Billy.CQRS.csproj" />
+      <ProjectReference Include="..\Billy.Expenses.Contracts\Billy.Expenses.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.MobileApi.Contracts\Billy.MobileApi.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.Receipts.Contracts\Billy.Receipts.Contracts.csproj" />
+      <ProjectReference Include="..\Billy.Users.Contracts\Billy.Users.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>
